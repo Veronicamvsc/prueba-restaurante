@@ -1,0 +1,34 @@
+Vas a desarrollar una web para mostrar el menú y Cocktails de un restaurante.  
+
+Tendrás 3 páginas: 
+
+La primera (index.html) para mostrar el menú de platos en la carta. 
+La segunda (cocktails.html) para poder ver y buscar Cocktails del restaurante. 
+La tercera (admin.html) para añadir y eliminar platos. 
+
+
+
+Instrucciones de la práctica con HTML, CSS, JavaScript y Firebase 
+
+
+
+Las páginas tienen que tener un diseño responsivo y se debe poder navegar entre las 3 páginas: “index.html” será el menú para los clientes, “cocktails.html” para ver los cocktails y “admin.html” será desde donde se podrán añadir más platos al menú. (2 Puntos) 
+En el admin.html necesitarás maquetar 3 inputs para introducir nombre del plato, ingredientes y precio, 1 botón de Añadir plato, y 1 botón de eliminar para cada plato. (1 Punto) 
+En el index.html la información que debe contener el menú es: nombre del plato, ingredientes y precio. (1 Punto) 
+Integra “Firebase Cloud Firestore” en el proyecto y utilízalo para: 
+Guardar los platos desde admin.html (1 Punto) 
+Mostrar los platos en index.html y admin.html (1 Punto) 
+Elimina un plato (no todos) desde el admin.html (1 Punto) 
+En la página de “cocktails.html” debemos atacar a la siguiente API que nos dará un listado de “margaritas” que debemos pintar visualmente al menos 2 campos del array de cocktails: https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita (2 Puntos) 
+Sube el proyecto a Netlify o Vercel y no se te olvide compartir el enlace en la entrega de la tarea en la Blackboard. (1 Punto) 
+
+Instrucciones de la práctica con Angular 
+
+
+
+Crea un nuevo proyecto en Angular (3 Puntos) 
+Las páginas tienen que tener un diseño responsivo y se debe poder navegar entre las 3 páginas: “index.html” será el menú para los clientes, “cocktails.html” para ver los cocktails y “admin.html” será desde donde se podrán añadir más platos al menú. (2 Puntos) 
+En el admin.html necesitarás maquetar 3 inputs para introducir nombre del plato, ingredientes y precio, 1 botón de Añadir plato, y 1 botón de eliminar para cada plato. (1 Punto) 
+En el index.html la información que debe contener el menú es: nombre del plato, ingredientes y precio. Esta información debe ser estática, creada con objetos en JavaScript en el fichero .ts correspondiente y mostrada con un *ngFor. (1 Punto) 
+En la página de “cocktails.html” debemos atacar a la siguiente API que nos dará un listado de “margaritas” que debemos pintar visualmente al menos 2 campos del array de cocktails: https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita (2 Puntos) 
+Sube el proyecto a Netlify o Vercel y no se te olvide compartir el enlace en la entrega de la tarea en la Blackboard. (1 Punto) 
